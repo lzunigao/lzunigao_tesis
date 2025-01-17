@@ -117,3 +117,5 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'validation', 'v1_accuracy'], loc='upper left')
 plt.show()
+
+# Tarea
