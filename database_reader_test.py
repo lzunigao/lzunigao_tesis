@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
         ])
 
-    train_dataset = datasets.ImageFolder(root='./database/figs/train', transform=transform)
+    train_dataset = datasets.ImageFolder(root='./figs/train', transform=transform)
     trainloader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=True, num_workers=2)
 
     dataiter = iter(trainloader)
